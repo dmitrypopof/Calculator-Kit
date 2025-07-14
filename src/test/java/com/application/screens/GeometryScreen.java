@@ -1,4 +1,12 @@
 package com.application.screens;
 
-public class GeometryScreen {
+import io.appium.java_client.android.AndroidDriver;
+
+public class GeometryScreen extends Screen{
+
+    public GeometryScreen(AndroidDriver driver) {
+        super(driver);
+    }
+
+
 }
